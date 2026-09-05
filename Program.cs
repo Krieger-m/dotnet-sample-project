@@ -1,4 +1,5 @@
 ﻿using HumanizerMethods;
+using FibonacciMethod;
 
 class SampleClass
 {
@@ -9,6 +10,11 @@ class SampleClass
 
         Console.WriteLine("\nDate/Time Manipulation:");
         HClass.HumanizeDates();
+
+        Console.WriteLine("\n");
+
+        var fib = FClass.Fibonacci(10);
+        Console.WriteLine(string.Join(", ", fib));
     }
 
 
