@@ -29,7 +29,7 @@ namespace FibonacciMethod
                 Debug.WriteLineIf(next == 1, $"sum is 1, n1 is {n1}, n2 is {n2}");
             }
 
-            // If n2 is 5 continue, else break.
+              // If n2 is 5 continue, else break.
             // Debug.Assert(n2 == 5, "The return value is not 5 and it should be.");
 
             return res.ToArray();
