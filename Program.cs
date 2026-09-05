@@ -1,5 +1,6 @@
 ﻿using HumanizerMethods;
 using FibonacciMethod;
+using System.Diagnostics;
 
 class SampleClass
 {
@@ -15,6 +16,9 @@ class SampleClass
 
         var fib = FClass.Fibonacci(10);
         Console.WriteLine(string.Join(", ", fib));
+
+        Trace.WriteLine("This is a trace message when tracing the app.");
+        Debug.WriteLine("This is a debug message just for developers.");
     }
 
 
