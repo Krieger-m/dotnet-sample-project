@@ -1,4 +1,5 @@
 ﻿using HumanizerMethods;
+
 class SampleClass
 {
     static void Main(string[] args)
@@ -10,6 +11,6 @@ class SampleClass
         HClass.HumanizeDates();
     }
 
-  
+
 }
 

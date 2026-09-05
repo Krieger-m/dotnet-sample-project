@@ -1,4 +1,5 @@
 using Humanizer;
+
 namespace HumanizerMethods
 {
     class HClass
