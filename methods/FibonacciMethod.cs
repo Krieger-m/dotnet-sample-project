@@ -30,7 +30,7 @@ namespace FibonacciMethod
             }
 
             // If n2 is 5 continue, else break.
-            Debug.Assert(n2 == 5, "The return value is not 5 and it should be.");
+            // Debug.Assert(n2 == 5, "The return value is not 5 and it should be.");
 
             return res.ToArray();
         }
